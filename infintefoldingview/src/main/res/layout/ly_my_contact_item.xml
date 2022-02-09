@@ -17,7 +17,7 @@
             android:padding="@dimen/dp_14"
             android:layout_marginRight="@dimen/dp_10"
             android:layout_marginLeft="@dimen/dp_4"
-            android:src="@drawable/depart_info" />
+            android:src="@drawable/ifv_ic_default_item_info" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -50,7 +50,7 @@
             android:layout_gravity="center_vertical"
             android:padding="@dimen/dp_15"
             android:paddingRight="10dp"
-            android:src="@drawable/you" />
+            android:src="@drawable/ifv_ic_default_content_right" />
     </LinearLayout>
 
     <View

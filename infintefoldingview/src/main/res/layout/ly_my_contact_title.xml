@@ -19,5 +19,5 @@
         android:layout_height="40dp"
         android:layout_gravity="center_vertical"
         android:padding="@dimen/dp_13"
-        android:src="@drawable/right" />
+        android:src="@drawable/ifv_ic_default_title_right" />
 </LinearLayout>

@@ -1,9 +1,10 @@
-package francis.ciruy.com.infinitefoldingview.controller.viewController;
+package francis.ciruy.lincolnct.com.infintefoldingview.controller.viewController;
 
 import android.view.View;
 
-import francis.ciruy.com.infinitefoldingview.controller.BaseController;
-import francis.ciruy.com.infinitefoldingview.entity.BaseEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.controller.BaseController;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseEntity;
+
 
 public abstract class BaseViewController<E extends BaseEntity> extends BaseController {
     View rootView;

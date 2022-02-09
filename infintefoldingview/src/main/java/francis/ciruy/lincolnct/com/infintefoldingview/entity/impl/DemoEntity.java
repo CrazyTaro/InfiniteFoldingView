@@ -1,7 +1,7 @@
-package francis.ciruy.com.infinitefoldingview.entity.impl;
+package francis.ciruy.lincolnct.com.infintefoldingview.entity.impl;
 
-import francis.ciruy.com.infinitefoldingview.entity.BaseContactEntity;
-import francis.ciruy.com.infinitefoldingview.entity.IVisitor;
+
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseContactEntity;
 
 public class DemoEntity extends BaseContactEntity {
     public String name;

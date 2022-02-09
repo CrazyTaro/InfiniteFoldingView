@@ -1,9 +1,10 @@
-package francis.ciruy.com.infinitefoldingview.view;
+package francis.ciruy.lincolnct.com.infintefoldingview.view;
 
 import android.graphics.Rect;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
 
 public class SpaceItemDecoration extends RecyclerView.ItemDecoration {
 

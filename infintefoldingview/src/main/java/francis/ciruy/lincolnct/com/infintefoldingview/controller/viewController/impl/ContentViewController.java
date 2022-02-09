@@ -1,12 +1,12 @@
-package francis.ciruy.com.infinitefoldingview.controller.viewController.impl;
+package francis.ciruy.lincolnct.com.infintefoldingview.controller.viewController.impl;
 
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import francis.ciruy.com.infinitefoldingview.R;
-import francis.ciruy.com.infinitefoldingview.controller.viewController.ContactViewController;
-import francis.ciruy.com.infinitefoldingview.entity.impl.DemoEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.R;
+import francis.ciruy.lincolnct.com.infintefoldingview.controller.viewController.ContactViewController;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.impl.DemoEntity;
 
 public class ContentViewController extends ContactViewController<DemoEntity> {
     private ImageView icon;

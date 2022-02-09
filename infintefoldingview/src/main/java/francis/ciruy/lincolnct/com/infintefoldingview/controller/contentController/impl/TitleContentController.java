@@ -1,10 +1,11 @@
-package francis.ciruy.com.infinitefoldingview.controller.contentController.impl;
+package francis.ciruy.lincolnct.com.infintefoldingview.controller.contentController.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import francis.ciruy.com.infinitefoldingview.controller.contentController.BaseContentController;
-import francis.ciruy.com.infinitefoldingview.entity.BaseContactEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.controller.contentController.BaseContentController;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseContactEntity;
+
 
 public class TitleContentController extends BaseContentController {
     private List<BaseContactEntity> contactEntities = new ArrayList<>();

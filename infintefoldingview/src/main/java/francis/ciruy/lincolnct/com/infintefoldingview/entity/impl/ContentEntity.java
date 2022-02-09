@@ -1,7 +1,6 @@
-package francis.ciruy.com.infinitefoldingview.entity.impl;
+package francis.ciruy.lincolnct.com.infintefoldingview.entity.impl;
 
-import francis.ciruy.com.infinitefoldingview.entity.BaseContactEntity;
-import francis.ciruy.com.infinitefoldingview.entity.BaseEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseContactEntity;
 
 public class ContentEntity extends BaseContactEntity {
 

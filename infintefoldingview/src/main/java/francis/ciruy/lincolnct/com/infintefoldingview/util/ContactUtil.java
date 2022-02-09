@@ -1,10 +1,11 @@
-package francis.ciruy.com.infinitefoldingview.util;
+package francis.ciruy.lincolnct.com.infintefoldingview.util;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import francis.ciruy.com.infinitefoldingview.entity.BaseContactEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseContactEntity;
+
 
 public class ContactUtil {
     private List<BaseContactEntity> contactEntities = new ArrayList<>();

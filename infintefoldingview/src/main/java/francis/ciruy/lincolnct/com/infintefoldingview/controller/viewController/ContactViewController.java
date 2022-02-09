@@ -1,10 +1,11 @@
-package francis.ciruy.com.infinitefoldingview.controller.viewController;
+package francis.ciruy.lincolnct.com.infintefoldingview.controller.viewController;
 
 import android.util.Log;
 import android.view.View;
 
-import francis.ciruy.com.infinitefoldingview.entity.BaseContactEntity;
-import francis.ciruy.com.infinitefoldingview.entity.IVisitor;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseContactEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.IVisitor;
+
 
 public abstract class ContactViewController<MODEL extends BaseContactEntity> extends BaseViewController
         implements IVisitor<MODEL> {

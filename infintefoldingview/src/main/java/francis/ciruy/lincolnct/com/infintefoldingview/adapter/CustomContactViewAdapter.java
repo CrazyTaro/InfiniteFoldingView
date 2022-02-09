@@ -1,4 +1,4 @@
-package francis.ciruy.com.infinitefoldingview.adapter;
+package francis.ciruy.lincolnct.com.infintefoldingview.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,10 +9,11 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import francis.ciruy.com.infinitefoldingview.controller.viewController.ContactViewController;
-import francis.ciruy.com.infinitefoldingview.entity.BaseContactEntity;
-import francis.ciruy.com.infinitefoldingview.entity.OnItemChildViewClickListener;
-import francis.ciruy.com.infinitefoldingview.view.InfiniteFoldingView;
+import francis.ciruy.lincolnct.com.infintefoldingview.controller.viewController.ContactViewController;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseContactEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.OnItemChildViewClickListener;
+import francis.ciruy.lincolnct.com.infintefoldingview.view.InfiniteFoldingView;
+
 
 public class CustomContactViewAdapter<T extends BaseContactEntity> extends RecyclerView.Adapter {
     private List<T> list;
@@ -46,7 +47,7 @@ public class CustomContactViewAdapter<T extends BaseContactEntity> extends Recyc
         public VH(View itemView) {
             super(itemView);
             View right = contactViewController.view(itemView).rightView();
-            if(right!= null) {
+            if (right != null) {
                 right.setOnClickListener(v -> {
                     if (onItemChildViewClickListener != null && getAdapterPosition() >= 0) {
                         onItemChildViewClickListener.onItemChildViewClick(v, VH.this.getAdapterPosition(),
@@ -82,7 +83,7 @@ public class CustomContactViewAdapter<T extends BaseContactEntity> extends Recyc
 
     @Override
     public int getItemCount() {
-        return list.size();
+        return list == null ? 0 : list.size();
     }
 
 }

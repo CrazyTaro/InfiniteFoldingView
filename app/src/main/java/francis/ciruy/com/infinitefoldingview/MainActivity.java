@@ -2,15 +2,17 @@ package francis.ciruy.com.infinitefoldingview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import francis.ciruy.com.infinitefoldingview.adapter.CustomContactViewAdapter;
-import francis.ciruy.com.infinitefoldingview.controller.viewController.impl.ContentViewController;
-import francis.ciruy.com.infinitefoldingview.controller.viewController.impl.TitleViewController;
-import francis.ciruy.com.infinitefoldingview.demoGenerator.ContactGenerator;
-import francis.ciruy.com.infinitefoldingview.entity.BaseContactEntity;
-import francis.ciruy.com.infinitefoldingview.view.InfiniteFoldingView;
+import francis.ciruy.lincolnct.com.infintefoldingview.adapter.CustomContactViewAdapter;
+import francis.ciruy.lincolnct.com.infintefoldingview.controller.viewController.impl.ContentViewController;
+import francis.ciruy.lincolnct.com.infintefoldingview.controller.viewController.impl.TitleViewController;
+import francis.ciruy.lincolnct.com.infintefoldingview.demoGenerator.ContactGenerator;
+import francis.ciruy.lincolnct.com.infintefoldingview.entity.BaseContactEntity;
+import francis.ciruy.lincolnct.com.infintefoldingview.view.InfiniteFoldingView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +21,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         InfiniteFoldingView infiniteFoldingView = findViewById(R.id.infiniteFoldingView);
+        LinearLayout titleView = findViewById(R.id.titleView);
+        RecyclerView contentView = findViewById(R.id.contentView);
+
         BaseContactEntity rootEntity = ContactGenerator.createDemoOriginEntity();
         infiniteFoldingView
+                .setTitleView(titleView)
+                .setContentView(contentView)
                 .titleViewController(new TitleViewController())
                 .contentViewController(new ContentViewController())
                 .onItemChildViewClickListener((view, pos, action, entity) -> {

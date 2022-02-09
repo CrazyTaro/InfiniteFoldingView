@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:gravity="center"
-    android:orientation="vertical"
-    tools:context=".DemoActivity">
-
-    <Button
-        android:id="@+id/demo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/black"
-        android:layout_marginBottom="@dimen/dp_10"
-        android:gravity="center"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:text="@string/idiot"
-        android:padding="8dp"
-        android:textColor="@android:color/white"
-        android:textSize="25sp" />
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/main"

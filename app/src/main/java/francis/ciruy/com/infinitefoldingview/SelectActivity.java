@@ -13,7 +13,6 @@ public class SelectActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select);
         SelectActivity.this
-                .bindClickListener(R.id.demo, v -> startActivity(new Intent(SelectActivity.this, DemoActivity.class)))
                 .bindClickListener(R.id.main, v -> startActivity(new Intent(SelectActivity.this, MainActivity.class)));
     }
 

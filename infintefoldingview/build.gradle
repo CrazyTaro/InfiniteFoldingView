@@ -3,6 +3,8 @@ plugins {
     id 'maven'
 }
 
+group = 'cn.lincoln.infintefoldingview'
+
 android {
     compileSdkVersion 28
 
